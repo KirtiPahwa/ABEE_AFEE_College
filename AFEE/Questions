@@ -1,0 +1,110 @@
+1. What is jsx. --->it is a template.or extension of javascript to embed javascript,html,react.
+2. What is babel.-->transpiler which transpile jsx code into simple html css and javascript.
+3. What is Node. -->runtime environment for running javascript into browser. For server side rendering of javascript.
+4. How to check node version.--->node -v , node --version, node.
+5. What is API.-->Application programming interface which is used to connect frontend with backend.
+6. What is open source. --> Software freely available for contribute and use.
+7. What is CICD. -->Continuous integration and continuous deployment.
+8. What is React ans its features. Framework and Copmonents: Single page, modular structure,jsx, virtual dom,one way data binding.
+9. What is difference between functional and class components?-->Class component is based on the classes. It uses lifecycles whereas functional component uses hooks.
+10. What is hooks?
+11. What is lifecycle of class components?
+12. How to install react?
+13. What is the dev dependencies?
+14. What is react props? --->properties of parent component send to child as parameters.
+15. What is the best alternate of props? -->context api, and redux library.
+16. What is the difference between framework and library?-->A framework is a set of pre-written code that provides a structure for developing software applications. A library, on the other hand, is a collection of pre-written code that can be used to perform specific tasks.React is a library(as we have to install the modules whenever needed) and angular is framework.
+17. What is redux?-->It follows pattern.It is a library.Independent of frameworks( therefore can be used in next js also.),State management tool in javascript. ( We can use react in angular.) (Libraries are globally and can be independently use on any frameworks).
+18. Best tool for redux-->redux saga,redux toolkit, (others are react redux).
+19. what is the use of npm and yarn.?-->node package manager . But yarn is faster.
+20. What is state?-->React objects to store the data.
+21. What is shallow and deep copy?
+22. Spread operator(...state)-->does shallow copy.
+23. Redux lifecycle?-->Event in UI dispatches action(type+payload) and action goes to reducer and reducer changes the state stored in store. And then UI will be triggerred.
+24. Why we should decalre the empty array initially?
+25. What is difference between default export and normal export?
+26. Difference btwn js and jsx.
+27. Redux frameworks: redux toolkit, and redux thunk.
+28. Bootstrap'framework: Material UI.
+29. Difference between npm and npx? --> NPM is a package manager used to install, delete, and update Javascript packages on your machine. NPX is a package executer, and it is used to execute javascript packages directly, without installing them.
+30. What is strapi? It is content management system whihc handlles database with backend.It is esasy because it handles it using GUI.
+31. What are the libraries for form validation?--> regex ,Formic, form validator.
+32. How to store images in sql and mongodb?--> Sql:BLOB(Binary large objects),Mongodb: Cloudinary or S3 bucket and put the link in the database in mongodb. It store the data in our localstorage and in our application's strapi folder. It requires node js engine as it run on node js and npm. It create collection (tables) and entities(row).
+33. What is destructuring?--> Destructuring is a convenient way of extracting multiple values from data stored in (possibly nested) objects and Arrays in javascript.
+34. How to access all the keys and values of the object?-->object.keys() and object.values().
+35. What does the controllers do in nodejs?-->It handels. the api's to call on the particular route. It basically handles the request and response on the routes.
+36. Difference between library and framework? -->A framework is used for building and deploying an application quickly. When we use a framework, we can use resources to facilitate faster development and a greater user experience. A library is used to enhance the functionality of an application.
+
+NextJS:
+
+1. It is react's framework.(react was library/framework of html,css,javascript). Helps in both client and server side rendering.
+   -- Features of nextjs: autmatic routing, server side rendering, prefetching,
+   User Interface - how users will consume and interact with your application.
+   Routing - how users navigate between different parts of your application.
+   Data Fetching - where your data lives and how to get it.
+   Rendering - when and where you render static or dynamic content.
+   Integrations - what third-party services you use (CMS, auth, payments, etc) and how you connect to them.
+   Infrastructure - where you deploy, store, and run your application code (Serverless, CDN, Edge, etc).
+   Performance - how to optimize your application for end-users.
+   Scalability - how your application adapts as your team, data, and traffic grow.
+   Developer Experience - your team’s experience building and maintaining your application.
+   Advanatages:
+   a. It makes static files but it is dynamic in nature.And we know that static files are SEO friendly .. So next js makes application's seo friendly.
+
+What is Next.js best for? (It is a full stack framework.)
+Image result for what are the bsst features in next js
+Next. js is a React framework that allows you to build supercharged, SEO-friendly, and extremely user-facing static websites and web applications using the React framework. Next. js is known for the best developer experience when building production-ready applications with all the features you need
+
+2.  npx create-next-app@latest folderName or npx create-next-app@version folderName(the version which you want to install.)
+3.  To install some technologies later on after installing the next js app-->
+4.  In this , we dont need to handle the routing . Router'path will be same as the file name.
+5.  Minification is the process of removing all unnecessary characters from the source code of interpreted programming languages or markup languages without changing its functionality.
+6.  npm run build creates a build directory with a production build of your app.
+7.  Express js alternates- fastify, nest.js
+8.  Express js handles 8000 request at one time whereas fastify handles 35000.
+9.  Query params: Query parameters are a defined set of parameters attached to the end of a url. They are extensions of the URL that are used to help define specific content or actions based on the data being passed. To append query params to the end of a URL, a '? ' Is added followed immediately by a query parameter. // Query is name of the data and params : is the information which user send to generate the dynamic url to send the information for the next page.
+10. Local storage is the process of storing digital data on physical storage devices, such as hard disc drives (HDDs), solid state drives (SSDs), or external storage devices, such as thumb drives or discs.
+    --Web storage, sometimes known as DOM storage, is a standard JavaScript API provided by web browsers. It enables websites to store persistent data on users' devices similar to cookies, but with much larger capacity and no information sent in HTTP headers.
+11. Query params start from the ? and to add the multiple querey params, universally we are usinng &.
+12. process.env.name of the secret key.
+13. SEO Friendly:
+
+14. What Are Social Meta Tags?
+    og:title – The title of the page as it should appear when displayed on social media platforms.
+    og:description – This is the 1-2 sentence snippet or preview text that shows up in the post.
+    og:type – The category type the content falls into (blog, article etc.).
+
+Social meta tags allow website owners to have some control over what content shows up when a web page is shared on social media platforms (Facebook, Twitter, LinkedIn, etc.). Social meta tags, also commonly referred to as open graph meta tags, rely on the Open Graph Protocol. Open Graph Protocol is a set of rules utilized to create rich objects on a web page for a social graph and builds upon existing technology to provide developers with more flexibility. In simpler terms, when social meta tags are implemented on a website, they act as a set of instructions detailing what exact image, video, title, url etc. should be shown when shared on social media.
+
+15. V8 is a free and open-source JavaScript engine developed by the Chromium Project for Google Chrome and Chromium web browsers.
+16. The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+<meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+
+Metadata will not be displayed on the page, but is machine parsable.
+
+Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+
+There is a method to let web designers take control over the viewport (the user's visible area of a web page), through the <meta> tag (See "Setting The Viewport" example below).
+
+18. What is Static Generation?
+    Static Generation describes the process of compiling and rendering a website or app at build time. The output is a bunch of static files, including the HTML file itself and assets like JavaScript and CSS.
+
+19. Difference between cliend and server side rendering?-->Server-side rendering is when content on your webpage is rendered on the server and not on your browser using JavaScript. For example, with a typical PHP or WordPress site, the page is loaded from content that is coming via HTTP, which was rendered on the server and comes as fully rendered HTML.
+    Client-side rendering manages the routing dynamically without refreshing the page every time a user requests a different route. But server-side rendering is able to display a fully populated page on the first load for any route of the website, whereas client-side rendering displays a blank page first.
+
+Server-side rendering (SSR) is a technique that renders a web page on the server rather than in the browser. When a website's JavaScript is rendered on the website's server, a fully rendered page is sent to the client and the client's JavaScript bundle engages and enables the Single Page Application framework to operate.
+
+Server-side rendering is exactly what it sounds like: rendering on the server. When you do this, you'll create an HTML file with all of the content of the site and send it back to the user. The user will then get an fully rendered HTML page that contains all of the necessary information for them to see your site without having to wait for any JavaScript or CSS files to load. This means that users who visit your site will be able to see everything much faster than if they were just looking at blank screen while waiting for JavaScript files to load.
+
+20. Can we use redux in next js? Yes.
+21. Structure of next js:-
+    Pages- file based routing is there. We create pages there , and theat files are routing path itself in browser.
+    app-folder based (changes in app folder will render the next js appp again(not in react). Not in other folder.)
+    Public- Whichever file you put in the public folder, that will be directly accessible (either it is image.)
+    svg-save the file in the address format.
+    Wherenver the code compile , the browser re-renders.
+
+//Token:007eJxTYPB83hqXc/WGzsqDN2NdnE5tXTlhjhHLX78FB0osLDYueG6uwJCammKelpxilmaeZGiSZm6UmGZuYWliZGmaZG5gam6ZuHeKfUpDICPD19NrWBkZIBDEZ2HwTczMY2AAAPeNIeo=
+
+<!-- HW :spotify clone -->

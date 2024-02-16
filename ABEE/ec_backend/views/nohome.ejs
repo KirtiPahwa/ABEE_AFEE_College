@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <style>
+      
+      .box{
+        height:300px;
+        width:200px;
+        border:2px solid crimson;
+      }
+      .pr{
+        text-decoration: line-through;
+      }
+      
+      #grid {
+        justify-content: center;
+        display:flex;
+        
+      }
+      #grid div{
+        margin-right: 20px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <center><h1>YOUR CART</h1></center>
+    <div id="grid">
+    <% results.forEach((result)=>{ %>
+    <div class="box">
+      <center>
+      <a href="details/<%=result.id%>"><h3><%=result.p_name%></h3></a>
+      <h4><%=result.type%></h4>
+      <span ><b><%=result.p_price%></b></span>
+<center>
+    </div>
+    <br>
+<%})%>
+</div>
+<form action="buyall" method="post">
+<select id="payment-type" name="mode" required>
+  <option value="0" selected>Pre-Paid</option>
+  <option value="1">Post-Paid</option>
+</select>
+<button type="submit">BUY</button></form>
+  </body>
+</html>

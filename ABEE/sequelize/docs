@@ -1,0 +1,5 @@
+Sequelize:
+It is ORM (object relational mapping).These are libraries, that are used to do all the heaving lifting in
+backgroud for us so that we don't focus on database queries and focus more on our node.js code and orms 
+convert database queries into easy to use javascript objects. 
+Sequelize is orm for sql based databases.
